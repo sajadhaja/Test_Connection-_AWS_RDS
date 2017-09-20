@@ -1,0 +1,34 @@
+{
+  "name": "docker-awsrdsconnection",
+  "version": "1.0.0",
+  "description": "to connect into AWS RDS from docker container ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/sajadhaja/Test_Connection_AWS_RDS.git"
+  },
+  "dependencies": {
+    "ejs": "latest",
+    "aws-sdk": "latest",
+    "express": "latest",
+    "body-parser": "latest",
+    "mysql": "latest",
+    "dotenv-extended": "^2.0.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "AWS",
+    "RDS",
+    "Node",
+    "JS",
+    "Connection",
+    "Docker",
+    "Container"
+  ],
+  "author": "Mohammed Sajadh",
+  "license": "ISC"
+}
